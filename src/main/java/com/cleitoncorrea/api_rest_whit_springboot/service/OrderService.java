@@ -3,7 +3,10 @@ package com.cleitoncorrea.api_rest_whit_springboot.service;
 import com.cleitoncorrea.api_rest_whit_springboot.Entity.OrderEntity;
 import com.cleitoncorrea.api_rest_whit_springboot.Entity.OrderItem;
 import com.cleitoncorrea.api_rest_whit_springboot.Listener.Dto.OrderCreatedEvent;
+import com.cleitoncorrea.api_rest_whit_springboot.controller.dto.OrderResponse;
 import com.cleitoncorrea.api_rest_whit_springboot.repositiry.OrderRepository;
+import org.springframework.data.domain.Page;
+import org.springframework.data.domain.PageRequest;
 import org.springframework.stereotype.Service;
 
 import java.math.BigDecimal;
@@ -41,6 +44,11 @@ public class OrderService {
                 .map(i -> i.preco().multiply(BigDecimal.valueOf(i.quantidade())))
                 .reduce(BigDecimal::add)
                 .orElse(BigDecimal.ZERO);
+    }
+
+    public Page< OrderResponse > findAllByCudtomerId( Long customerId, PageRequest pageRequest ){
+    var orders = orderRepository.findAllByCustomerId(customerId, pageRequest);
+    return orders.map (OrderResponse::fromEntity);
     }
 
 }
