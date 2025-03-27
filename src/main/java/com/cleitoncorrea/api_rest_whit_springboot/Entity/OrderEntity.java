@@ -1,5 +1,6 @@
 package com.cleitoncorrea.api_rest_whit_springboot.Entity;
 
+import com.cleitoncorrea.api_rest_whit_springboot.Listener.Dto.OrderCreatedEvent;
 import org.springframework.data.mongodb.core.index.Indexed;
 import org.springframework.data.mongodb.core.mapping.Document;
 import org.springframework.data.mongodb.core.mapping.Field;
@@ -54,4 +55,5 @@ public class OrderEntity {
     public void setItems(List<OrderItem> items) {
         this.items = items;
     }
+
 }
