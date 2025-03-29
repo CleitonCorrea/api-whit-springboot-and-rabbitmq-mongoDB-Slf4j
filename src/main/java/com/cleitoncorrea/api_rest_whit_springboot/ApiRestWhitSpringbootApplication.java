@@ -9,7 +9,7 @@ import org.springframework.data.mongodb.core.MongoTemplate;
 public class ApiRestWhitSpringbootApplication {
 
 	public static void main(String[] args) {
-		//new MongoTemplate(MongoClients.create(), "database");
+
 		SpringApplication.run(ApiRestWhitSpringbootApplication.class, args);
 	}
 

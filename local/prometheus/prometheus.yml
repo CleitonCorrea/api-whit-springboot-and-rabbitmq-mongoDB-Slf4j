@@ -1,0 +1,10 @@
+global:
+  scrape_interval: 1m
+
+scrape_configs:
+  - job_name: "api-produtos-job"
+    metrics_path: "/actuator/prometheus"
+    static_configs:
+      - targets: ["localhost:8080"]
+        labels:
+          application: "api-produto"

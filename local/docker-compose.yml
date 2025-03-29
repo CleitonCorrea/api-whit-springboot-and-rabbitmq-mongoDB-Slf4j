@@ -1,3 +1,7 @@
+version: '3'
+volumes:
+  prometheus_data:
+
 services:
   mongoDb:
     image: mongo
@@ -12,3 +16,17 @@ services:
     ports:
       - 15672:15672
       - 5672:5672
+
+  prometheus:
+    image: prom/prometheus
+    volumes:
+      - "./prometheus/prometheus.yml:/etc/prometheus/prometheus.yml"
+      - prometheus_data:/prometheus
+    networks:
+      - localprom
+    ports:
+      - 9090:9090
+
+networks:
+  localprom:
+    driver: bridge
