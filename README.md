@@ -62,7 +62,7 @@ Agradecemos às seguintes pessoas que contribuíram para este projeto:
     </td>
    <td align="center">
       <a href="#">
-        <img src="https://www.clipartmax.com/png/middle/450-4502990_prometheus-logo-logo-prometheus-monitoring.png"/><br>
+        <img src="https://www.clipartmax.com/png/middle/450-4502990_prometheus-logo-logo-prometheus-monitoring.png"width="100px"/><br>
         <sub>
           <b>Prometheus</b>
         </sub>
