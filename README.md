@@ -91,36 +91,40 @@ docker-compose up
 ### Logo apos os serviços podem ser acessados via Browser
 <p align="left">
   Acessar o RabbitMQ interface de gerenciamento
-</p><br />
+</p>
 
 ```
-Localhost:5672
+Localhost:15672
 ```
-
+<br />
 <p align="left">
  Acessar o Prometheus
 </p>
-<br />
 
 ```
 Localhost:9090
 
 ```
-
+<br />
 <p align="left">
  Acessar o Grafana sistema de dashboards
 </p>
+
+```
+Localhost:3000
+```
+### Inicializando a Aplicação
+<p>Acesse a pasta do projeto via terminal e execute o seguinte comando:</p>
+
+```
+mvn spring-boot:run
+```
 <br />
 
-```
-Localhost:300
-```
-
-
-
-
-
 ## Exemplo de mensagem que deve ser consumida
+<p align="left">
+Este é o payload que voce deve inserir na fila cleitoncorrea-created-queue na aba Exchanges
+</p>
 
 ```
    {
