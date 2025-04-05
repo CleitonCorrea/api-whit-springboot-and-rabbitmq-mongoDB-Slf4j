@@ -6,14 +6,9 @@
 
 <br />
 
-<strong>Esp. Cyber Security | Esp. Machine Learning | Esp. Linux Cloud Administration</strong>
-
-<br />
- MEC - Ministério da Educação e Cultura
-</p>
 
 <p align="left">
-  🦄 Linguagens: <strong>PHP | NodeJS | Java | Python | Javascript | Typescript | Skala | CSS | HTML.</strong>
+  🦄 Linguagens: <strong></strong>
 </p>
 
 <p align="left">
@@ -32,7 +27,7 @@
   <img src="https://img.shields.io/badge/-Linkedin-0e76a8?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/cleitoncorrea/" /></a>
 
   <a href="#" alt="WhatsApp">
-  <img src="https://img.shields.io/badge/-WhatsApp-25d366?style=flat-square&labelColor=25d366&logo=whatsapp&logoColor=white&link=5514991722911"/></a>
+  <img src="https://img.shields.io/badge/-WhatsApp-25d366?style=flat-square&labelColor=25d366&logo=whatsapp&logoColor=white&link=5514991712011"/></a>
 </p>  
 
 ## 🤝 Colaboradores
@@ -43,40 +38,38 @@ Agradecemos às seguintes pessoas que contribuíram para este projeto:
   <tr>
     <td align="center">
       <a href="#">
-        <img src="https://avatars3.githubusercontent.com/u/31936044" width="100px;" alt="Cleiton Corrêa"/><br>
+        <img src="https://images.seeklogo.com/logo-png/38/1/spring-boot-logo-png_seeklogo-385503.png" width="100px;" alt=Logo Spring Boot"/><br>
         <sub>
-          <b>Cleiton Corrêa</b>
+          <b>Spring Boot</b>
         </sub>
       </a>
     </td>
     <td align="center">
       <a href="#">
-        <img src="https://s2.glbimg.com/FUcw2usZfSTL6yCCGj3L3v3SpJ8=/smart/e.glbimg.com/og/ed/f/original/2019/04/25/zuckerberg_podcast.jpg" width="100px;" alt="Foto do Mark Zuckerberg"/><br>
+        <img src="https://herve.beraud.io/images/blog/rabbitmq.png" width="100px;" alt="Logo RabbitMQ"/><br>
         <sub>
-          <b>Mark Zuckerberg</b>
+          <b>RabbitMQ</b>
         </sub>
       </a>
     </td>
     <td align="center">
       <a href="#">
-        <img src="https://miro.medium.com/max/360/0*1SkS3mSorArvY9kS.jpg" width="100px;" alt="Foto do Steve Jobs"/><br>
+        <img src="https://infinapps.com/wp-content/uploads/2018/10/mongodb-logo.png" width="100px alt="logo mongoDB" /><br>
         <sub>
-          <b>Steve Jobs</b>
+          <b>MongoDB</b>
+        </sub>
+      </a>
+    </td>
+   <td align="center">
+      <a href="#">
+        <img src="https://www.clipartmax.com/png/middle/450-4502990_prometheus-logo-logo-prometheus-monitoring.png"/><br>
+        <sub>
+          <b>Prometheus</b>
         </sub>
       </a>
     </td>
   </tr>
 </table>
-
-## 😄 Seja um dos contribuidores<br>
-
-# CERTIFIED AND BADGES ORACLE | IBM | MICROSOFT |EC-COUNCIL | ATLASSIAN | REDIS | MONGO | COMPTIA | CISCO | FORTNET etc... YEAR 2022
-
-[![CI](https://github.com/CleitonCorrea/my-certifications/actions/workflows/main.yml/badge.svg?branch=develop&event=pull_request)](https://github.com/CleitonCorrea/my-certifications/actions/workflows/main.yml)
-
-### SR ENG. SOFT OCI 1Z0-1105-22 | SCS-C01| DAS-C01 | OCI 1Z0-997 | OCI 1Z0-1085-21 | AWS AMS | IBM C2S-609 | CCO-L1 | CCO-L3 | SFPC |RWVCPC | ASB-412 | APF-ASEC | APF-PMA | APF-DAP | MU-A300 | ACP-610 | ACP-620
-
-
 
 Exemplo de mensagem que deve ser consumida
 
