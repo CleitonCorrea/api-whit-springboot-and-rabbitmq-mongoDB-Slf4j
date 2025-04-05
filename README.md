@@ -38,7 +38,7 @@ Agradecemos às seguintes pessoas que contribuíram para este projeto:
   <tr>
     <td align="center">
       <a href="#">
-        <img src="https://images.seeklogo.com/logo-png/38/1/spring-boot-logo-png_seeklogo-385503.png" width="100px;" alt=Logo Spring Boot"/><br>
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/79/Spring_Boot.svg/1200px-Spring_Boot.svg.png" width="100px" alt="Logo Spring Boot"/><br>
         <sub>
           <b>Spring Boot</b>
         </sub>
