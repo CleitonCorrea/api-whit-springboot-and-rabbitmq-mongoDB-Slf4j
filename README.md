@@ -71,6 +71,22 @@ Agradecemos às seguintes pessoas que contribuíram para este projeto:
   </tr>
 </table>
 
+### Passo a Passo para executar a Aplicação
+
+1°) - Dependencias
+```
+!° - Você precisa ter o Docker instalado em sua maquina
+2° - Você precisa ter JVM do JAVA 21 instalado em sua maquina
+
+```
+2°) - Executar os serviços do RabbitMQ, MongoDB, Prometheus e Grafana
+<p align="left">
+  Acesse via terminal a pasta local do projeto aonde se encontra o arquivo docker-compose.yml e execute
+</p>
+```
+docker-compose up
+```
+
 Exemplo de mensagem que deve ser consumida
 
 ```
