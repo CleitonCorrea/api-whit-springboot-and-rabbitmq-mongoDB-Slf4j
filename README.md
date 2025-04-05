@@ -79,15 +79,48 @@ Agradecemos às seguintes pessoas que contribuíram para este projeto:
 2° - Você precisa ter JVM do JAVA 21 instalado em sua maquina
 
 ```
-2°) - Executar os serviços do RabbitMQ, MongoDB, Prometheus e Grafana
+### 2°) - Executar os serviços do RabbitMQ, MongoDB, Prometheus e Grafana
 <p align="left">
   Acesse via terminal a pasta local do projeto aonde se encontra o arquivo docker-compose.yml e execute
 </p>
+
 ```
 docker-compose up
+
+```
+### Logo apos os serviços podem ser acessados via Browser
+<p align="left">
+  Acessar o RabbitMQ interface de gerenciamento
+</p><br />
+
+```
+Localhost:5672
 ```
 
-Exemplo de mensagem que deve ser consumida
+<p align="left">
+ Acessar o Prometheus
+</p>
+<br />
+
+```
+Localhost:9090
+
+```
+
+<p align="left">
+ Acessar o Grafana sistema de dashboards
+</p>
+<br />
+
+```
+Localhost:300
+```
+
+
+
+
+
+## Exemplo de mensagem que deve ser consumida
 
 ```
    {
